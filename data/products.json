@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Product 1 - home",
+    "description": "This is a sample description for product 1 in category home.",
+    "price": 12.5,
+    "rating": 3.4,
+    "brand": "Acme",
+    "category": "home",
+    "thumbnail": "https://picsum.photos/seed/1/600/400",
+    "images": [
+      "https://picsum.photos/seed/1a/1200/800"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Product 2 - books",
+    "description": "This is a sample description for product 2 in category books.",
+    "price": 15.0,
+    "rating": 3.8,
+    "brand": "Acme",
+    "category": "books",
+    "thumbnail": "https://picsum.photos/seed/2/600/400",
+    "images": [
+      "https://picsum.photos/seed/2a/1200/800"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Product 3 - toys",
+    "description": "This is a sample description for product 3 in category toys.",
+    "price": 17.5,
+    "rating": 4.2,
+    "brand": "Acme",
+    "category": "toys",
+    "thumbnail": "https://picsum.photos/seed/3/600/400",
+    "images": [
+      "https://picsum.photos/seed/3a/1200/800"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Product 4 - fashion",
+    "description": "This is a sample description for product 4 in category fashion.",
+    "price": 20.0,
+    "rating": 4.6,
+    "brand": "Acme",
+    "category": "fashion",
+    "thumbnail": "https://picsum.photos/seed/4/600/400",
+    "images": [
+      "https://picsum.photos/seed/4a/1200/800"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Product 5 - groceries",
+    "description": "This is a sample description for product 5 in category groceries.",
+    "price": 22.5,
+    "rating": 3.0,
+    "brand": "Acme",
+    "category": "groceries",
+    "thumbnail": "https://picsum.photos/seed/5/600/400",
+    "images": [
+      "https://picsum.photos/seed/5a/1200/800"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Product 6 - electronics",
+    "description": "This is a sample description for product 6 in category electronics.",
+    "price": 25.0,
+    "rating": 3.4,
+    "brand": "Acme",
+    "category": "electronics",
+    "thumbnail": "https://picsum.photos/seed/6/600/400",
+    "images": [
+      "https://picsum.photos/seed/6a/1200/800"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Product 7 - home",
+    "description": "This is a sample description for product 7 in category home.",
+    "price": 27.5,
+    "rating": 3.8,
+    "brand": "Acme",
+    "category": "home",
+    "thumbnail": "https://picsum.photos/seed/7/600/400",
+    "images": [
+      "https://picsum.photos/seed/7a/1200/800"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Product 8 - books",
+    "description": "This is a sample description for product 8 in category books.",
+    "price": 30.0,
+    "rating": 4.2,
+    "brand": "Acme",
+    "category": "books",
+    "thumbnail": "https://picsum.photos/seed/8/600/400",
+    "images": [
+      "https://picsum.photos/seed/8a/1200/800"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Product 9 - toys",
+    "description": "This is a sample description for product 9 in category toys.",
+    "price": 32.5,
+    "rating": 4.6,
+    "brand": "Acme",
+    "category": "toys",
+    "thumbnail": "https://picsum.photos/seed/9/600/400",
+    "images": [
+      "https://picsum.photos/seed/9a/1200/800"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Product 10 - fashion",
+    "description": "This is a sample description for product 10 in category fashion.",
+    "price": 35.0,
+    "rating": 3.0,
+    "brand": "Acme",
+    "category": "fashion",
+    "thumbnail": "https://picsum.photos/seed/10/600/400",
+    "images": [
+      "https://picsum.photos/seed/10a/1200/800"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Product 11 - groceries",
+    "description": "This is a sample description for product 11 in category groceries.",
+    "price": 37.5,
+    "rating": 3.4,
+    "brand": "Acme",
+    "category": "groceries",
+    "thumbnail": "https://picsum.photos/seed/11/600/400",
+    "images": [
+      "https://picsum.photos/seed/11a/1200/800"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Product 12 - electronics",
+    "description": "This is a sample description for product 12 in category electronics.",
+    "price": 40.0,
+    "rating": 3.8,
+    "brand": "Acme",
+    "category": "electronics",
+    "thumbnail": "https://picsum.photos/seed/12/600/400",
+    "images": [
+      "https://picsum.photos/seed/12a/1200/800"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Product 13 - home",
+    "description": "This is a sample description for product 13 in category home.",
+    "price": 42.5,
+    "rating": 4.2,
+    "brand": "Acme",
+    "category": "home",
+    "thumbnail": "https://picsum.photos/seed/13/600/400",
+    "images": [
+      "https://picsum.photos/seed/13a/1200/800"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Product 14 - books",
+    "description": "This is a sample description for product 14 in category books.",
+    "price": 45.0,
+    "rating": 4.6,
+    "brand": "Acme",
+    "category": "books",
+    "thumbnail": "https://picsum.photos/seed/14/600/400",
+    "images": [
+      "https://picsum.photos/seed/14a/1200/800"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Product 15 - toys",
+    "description": "This is a sample description for product 15 in category toys.",
+    "price": 47.5,
+    "rating": 3.0,
+    "brand": "Acme",
+    "category": "toys",
+    "thumbnail": "https://picsum.photos/seed/15/600/400",
+    "images": [
+      "https://picsum.photos/seed/15a/1200/800"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Product 16 - fashion",
+    "description": "This is a sample description for product 16 in category fashion.",
+    "price": 50.0,
+    "rating": 3.4,
+    "brand": "Acme",
+    "category": "fashion",
+    "thumbnail": "https://picsum.photos/seed/16/600/400",
+    "images": [
+      "https://picsum.photos/seed/16a/1200/800"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Product 17 - groceries",
+    "description": "This is a sample description for product 17 in category groceries.",
+    "price": 52.5,
+    "rating": 3.8,
+    "brand": "Acme",
+    "category": "groceries",
+    "thumbnail": "https://picsum.photos/seed/17/600/400",
+    "images": [
+      "https://picsum.photos/seed/17a/1200/800"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Product 18 - electronics",
+    "description": "This is a sample description for product 18 in category electronics.",
+    "price": 55.0,
+    "rating": 4.2,
+    "brand": "Acme",
+    "category": "electronics",
+    "thumbnail": "https://picsum.photos/seed/18/600/400",
+    "images": [
+      "https://picsum.photos/seed/18a/1200/800"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Product 19 - home",
+    "description": "This is a sample description for product 19 in category home.",
+    "price": 57.5,
+    "rating": 4.6,
+    "brand": "Acme",
+    "category": "home",
+    "thumbnail": "https://picsum.photos/seed/19/600/400",
+    "images": [
+      "https://picsum.photos/seed/19a/1200/800"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Product 20 - books",
+    "description": "This is a sample description for product 20 in category books.",
+    "price": 60.0,
+    "rating": 3.0,
+    "brand": "Acme",
+    "category": "books",
+    "thumbnail": "https://picsum.photos/seed/20/600/400",
+    "images": [
+      "https://picsum.photos/seed/20a/1200/800"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Product 21 - toys",
+    "description": "This is a sample description for product 21 in category toys.",
+    "price": 62.5,
+    "rating": 3.4,
+    "brand": "Acme",
+    "category": "toys",
+    "thumbnail": "https://picsum.photos/seed/21/600/400",
+    "images": [
+      "https://picsum.photos/seed/21a/1200/800"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Product 22 - fashion",
+    "description": "This is a sample description for product 22 in category fashion.",
+    "price": 65.0,
+    "rating": 3.8,
+    "brand": "Acme",
+    "category": "fashion",
+    "thumbnail": "https://picsum.photos/seed/22/600/400",
+    "images": [
+      "https://picsum.photos/seed/22a/1200/800"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Product 23 - groceries",
+    "description": "This is a sample description for product 23 in category groceries.",
+    "price": 67.5,
+    "rating": 4.2,
+    "brand": "Acme",
+    "category": "groceries",
+    "thumbnail": "https://picsum.photos/seed/23/600/400",
+    "images": [
+      "https://picsum.photos/seed/23a/1200/800"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Product 24 - electronics",
+    "description": "This is a sample description for product 24 in category electronics.",
+    "price": 70.0,
+    "rating": 4.6,
+    "brand": "Acme",
+    "category": "electronics",
+    "thumbnail": "https://picsum.photos/seed/24/600/400",
+    "images": [
+      "https://picsum.photos/seed/24a/1200/800"
+    ]
+  }
+]
