@@ -1,314 +1,338 @@
 [
   {
     "id": 1,
-    "title": "Product 1 - home",
-    "description": "This is a sample description for product 1 in category home.",
-    "price": 12.5,
-    "rating": 3.4,
-    "brand": "Acme",
-    "category": "home",
-    "thumbnail": "https://picsum.photos/seed/1/600/400",
+    "title": "Radiance Revive Face Serum",
+    "description": "A revitalizing serum that brightens and hydrates the skin for a youthful glow.",
+    "price": 29.99,
+    "rating": 4.6,
+    "brand": "GlowCare",
+    "category": "Beauty",
+    "thumbnail": "https://source.unsplash.com/random/400x400?beauty,serum",
     "images": [
-      "https://picsum.photos/seed/1a/1200/800"
+      "https://source.unsplash.com/random/1200x800?beauty,serum",
+      "https://source.unsplash.com/random/1200x800?serum,skincare"
     ]
   },
   {
     "id": 2,
-    "title": "Product 2 - books",
-    "description": "This is a sample description for product 2 in category books.",
-    "price": 15.0,
-    "rating": 3.8,
-    "brand": "Acme",
-    "category": "books",
-    "thumbnail": "https://picsum.photos/seed/2/600/400",
+    "title": "Ocean Breeze Room Diffuser",
+    "description": "Infuse your home with the refreshing scent of ocean waves.",
+    "price": 19.99,
+    "rating": 4.4,
+    "brand": "AromaScape",
+    "category": "Home",
+    "thumbnail": "https://source.unsplash.com/random/400x400?diffuser,aroma",
     "images": [
-      "https://picsum.photos/seed/2a/1200/800"
+      "https://source.unsplash.com/random/1200x800?diffuser,aroma",
+      "https://source.unsplash.com/random/1200x800?aroma,home"
     ]
   },
   {
     "id": 3,
-    "title": "Product 3 - toys",
-    "description": "This is a sample description for product 3 in category toys.",
-    "price": 17.5,
-    "rating": 4.2,
-    "brand": "Acme",
-    "category": "toys",
-    "thumbnail": "https://picsum.photos/seed/3/600/400",
+    "title": "Golden Glow Body Oil",
+    "description": "Luxurious body oil with a subtle shimmer for radiant skin.",
+    "price": 24.99,
+    "rating": 4.5,
+    "brand": "LuxeSkin",
+    "category": "Beauty",
+    "thumbnail": "https://source.unsplash.com/random/400x400?body,oil",
     "images": [
-      "https://picsum.photos/seed/3a/1200/800"
+      "https://source.unsplash.com/random/1200x800?body,oil",
+      "https://source.unsplash.com/random/1200x800?oil,cosmetics"
     ]
   },
   {
     "id": 4,
-    "title": "Product 4 - fashion",
-    "description": "This is a sample description for product 4 in category fashion.",
-    "price": 20.0,
-    "rating": 4.6,
-    "brand": "Acme",
-    "category": "fashion",
-    "thumbnail": "https://picsum.photos/seed/4/600/400",
+    "title": "Classic Leather Wallet",
+    "description": "Premium handcrafted leather wallet with multiple compartments.",
+    "price": 49.99,
+    "rating": 4.7,
+    "brand": "UrbanCraft",
+    "category": "Fashion",
+    "thumbnail": "https://source.unsplash.com/random/400x400?wallet,leather",
     "images": [
-      "https://picsum.photos/seed/4a/1200/800"
+      "https://source.unsplash.com/random/1200x800?wallet,leather",
+      "https://source.unsplash.com/random/1200x800?leather,accessory"
     ]
   },
   {
     "id": 5,
-    "title": "Product 5 - groceries",
-    "description": "This is a sample description for product 5 in category groceries.",
-    "price": 22.5,
-    "rating": 3.0,
-    "brand": "Acme",
-    "category": "groceries",
-    "thumbnail": "https://picsum.photos/seed/5/600/400",
+    "title": "Midnight Elegance Perfume",
+    "description": "An enchanting blend of floral and woody notes for evening wear.",
+    "price": 59.99,
+    "rating": 4.8,
+    "brand": "Eterna",
+    "category": "Beauty",
+    "thumbnail": "https://source.unsplash.com/random/400x400?perfume,bottle",
     "images": [
-      "https://picsum.photos/seed/5a/1200/800"
+      "https://source.unsplash.com/random/1200x800?perfume,bottle",
+      "https://source.unsplash.com/random/1200x800?perfume,fragrance"
     ]
   },
   {
     "id": 6,
-    "title": "Product 6 - electronics",
-    "description": "This is a sample description for product 6 in category electronics.",
-    "price": 25.0,
-    "rating": 3.4,
-    "brand": "Acme",
-    "category": "electronics",
-    "thumbnail": "https://picsum.photos/seed/6/600/400",
+    "title": "Aurora Yoga Mat",
+    "description": "Non-slip yoga mat with eco-friendly materials and vibrant patterns.",
+    "price": 34.99,
+    "rating": 4.6,
+    "brand": "ZenFlex",
+    "category": "Fitness",
+    "thumbnail": "https://source.unsplash.com/random/400x400?yoga,mat",
     "images": [
-      "https://picsum.photos/seed/6a/1200/800"
+      "https://source.unsplash.com/random/1200x800?yoga,mat",
+      "https://source.unsplash.com/random/1200x800?yoga,exercise"
     ]
   },
   {
     "id": 7,
-    "title": "Product 7 - home",
-    "description": "This is a sample description for product 7 in category home.",
-    "price": 27.5,
-    "rating": 3.8,
-    "brand": "Acme",
-    "category": "home",
-    "thumbnail": "https://picsum.photos/seed/7/600/400",
+    "title": "Cedarwood Scented Candle",
+    "description": "Relax with the warm and comforting aroma of cedarwood.",
+    "price": 14.99,
+    "rating": 4.3,
+    "brand": "Woodland Glow",
+    "category": "Home",
+    "thumbnail": "https://source.unsplash.com/random/400x400?candle,cedarwood",
     "images": [
-      "https://picsum.photos/seed/7a/1200/800"
+      "https://source.unsplash.com/random/1200x800?candle,cedarwood",
+      "https://source.unsplash.com/random/1200x800?candle,aroma"
     ]
   },
   {
     "id": 8,
-    "title": "Product 8 - books",
-    "description": "This is a sample description for product 8 in category books.",
-    "price": 30.0,
-    "rating": 4.2,
-    "brand": "Acme",
-    "category": "books",
-    "thumbnail": "https://picsum.photos/seed/8/600/400",
+    "title": "Stellar Noise-Canceling Headphones",
+    "description": "High-fidelity headphones with advanced noise cancellation.",
+    "price": 199.99,
+    "rating": 4.9,
+    "brand": "AudioNova",
+    "category": "Electronics",
+    "thumbnail": "https://source.unsplash.com/random/400x400?headphones,audio",
     "images": [
-      "https://picsum.photos/seed/8a/1200/800"
+      "https://source.unsplash.com/random/1200x800?headphones,audio",
+      "https://source.unsplash.com/random/1200x800?audio,tech"
     ]
   },
   {
     "id": 9,
-    "title": "Product 9 - toys",
-    "description": "This is a sample description for product 9 in category toys.",
-    "price": 32.5,
+    "title": "Velvet Luxe Throw Blanket",
+    "description": "Soft and plush velvet throw blanket for ultimate comfort.",
+    "price": 39.99,
     "rating": 4.6,
-    "brand": "Acme",
-    "category": "toys",
-    "thumbnail": "https://picsum.photos/seed/9/600/400",
+    "brand": "CozyNest",
+    "category": "Home",
+    "thumbnail": "https://source.unsplash.com/random/400x400?blanket,velvet",
     "images": [
-      "https://picsum.photos/seed/9a/1200/800"
+      "https://source.unsplash.com/random/1200x800?blanket,velvet",
+      "https://source.unsplash.com/random/1200x800?blanket,home"
     ]
   },
   {
     "id": 10,
-    "title": "Product 10 - fashion",
-    "description": "This is a sample description for product 10 in category fashion.",
-    "price": 35.0,
-    "rating": 3.0,
-    "brand": "Acme",
-    "category": "fashion",
-    "thumbnail": "https://picsum.photos/seed/10/600/400",
+    "title": "Gourmet Spice Rack Set",
+    "description": "Curated collection of exotic spices from around the world.",
+    "price": 79.99,
+    "rating": 4.7,
+    "brand": "FlavorWorld",
+    "category": "Kitchen",
+    "thumbnail": "https://source.unsplash.com/random/400x400?spices,kitchen",
     "images": [
-      "https://picsum.photos/seed/10a/1200/800"
+      "https://source.unsplash.com/random/1200x800?spices,kitchen",
+      "https://source.unsplash.com/random/1200x800?spices,cooking"
     ]
   },
   {
     "id": 11,
-    "title": "Product 11 - groceries",
-    "description": "This is a sample description for product 11 in category groceries.",
-    "price": 37.5,
-    "rating": 3.4,
-    "brand": "Acme",
-    "category": "groceries",
-    "thumbnail": "https://picsum.photos/seed/11/600/400",
+    "title": "Minimalist Desk Lamp",
+    "description": "Sleek LED desk lamp with adjustable brightness.",
+    "price": 44.99,
+    "rating": 4.5,
+    "brand": "BrightLite",
+    "category": "Home",
+    "thumbnail": "https://source.unsplash.com/random/400x400?lamp,desk",
     "images": [
-      "https://picsum.photos/seed/11a/1200/800"
+      "https://source.unsplash.com/random/1200x800?lamp,desk",
+      "https://source.unsplash.com/random/1200x800?desk,light"
     ]
   },
   {
     "id": 12,
-    "title": "Product 12 - electronics",
-    "description": "This is a sample description for product 12 in category electronics.",
-    "price": 40.0,
-    "rating": 3.8,
-    "brand": "Acme",
-    "category": "electronics",
-    "thumbnail": "https://picsum.photos/seed/12/600/400",
+    "title": "Herbal Green Tea Sampler",
+    "description": "A selection of soothing herbal and green teas.",
+    "price": 22.99,
+    "rating": 4.4,
+    "brand": "TeaHarvest",
+    "category": "Beverages",
+    "thumbnail": "https://source.unsplash.com/random/400x400?tea,herbal",
     "images": [
-      "https://picsum.photos/seed/12a/1200/800"
+      "https://source.unsplash.com/random/1200x800?tea,herbal",
+      "https://source.unsplash.com/random/1200x800?green,tea"
     ]
   },
   {
     "id": 13,
-    "title": "Product 13 - home",
-    "description": "This is a sample description for product 13 in category home.",
-    "price": 42.5,
-    "rating": 4.2,
-    "brand": "Acme",
-    "category": "home",
-    "thumbnail": "https://picsum.photos/seed/13/600/400",
+    "title": "Marble Ceramic Dinner Set",
+    "description": "Elegant marble-pattern ceramic plates and bowls.",
+    "price": 129.99,
+    "rating": 4.8,
+    "brand": "CeramiLux",
+    "category": "Kitchen",
+    "thumbnail": "https://source.unsplash.com/random/400x400?dinner,ceramic",
     "images": [
-      "https://picsum.photos/seed/13a/1200/800"
+      "https://source.unsplash.com/random/1200x800?dinner,ceramic",
+      "https://source.unsplash.com/random/1200x800?ceramic,plates"
     ]
   },
   {
     "id": 14,
-    "title": "Product 14 - books",
-    "description": "This is a sample description for product 14 in category books.",
-    "price": 45.0,
+    "title": "Smart Fitness Tracker",
+    "description": "Track workouts, heart rate, and sleep with style.",
+    "price": 89.99,
     "rating": 4.6,
-    "brand": "Acme",
-    "category": "books",
-    "thumbnail": "https://picsum.photos/seed/14/600/400",
+    "brand": "FitPulse",
+    "category": "Fitness",
+    "thumbnail": "https://source.unsplash.com/random/400x400?fitness,tracker",
     "images": [
-      "https://picsum.photos/seed/14a/1200/800"
+      "https://source.unsplash.com/random/1200x800?fitness,tracker",
+      "https://source.unsplash.com/random/1200x800?fitness,wearable"
     ]
   },
   {
     "id": 15,
-    "title": "Product 15 - toys",
-    "description": "This is a sample description for product 15 in category toys.",
-    "price": 47.5,
-    "rating": 3.0,
-    "brand": "Acme",
-    "category": "toys",
-    "thumbnail": "https://picsum.photos/seed/15/600/400",
+    "title": "Bamboo Cutting Board Set",
+    "description": "Durable and eco-friendly bamboo cutting boards.",
+    "price": 27.99,
+    "rating": 4.5,
+    "brand": "EcoChop",
+    "category": "Kitchen",
+    "thumbnail": "https://source.unsplash.com/random/400x400?cuttingboard,bamboo",
     "images": [
-      "https://picsum.photos/seed/15a/1200/800"
+      "https://source.unsplash.com/random/1200x800?cuttingboard,bamboo",
+      "https://source.unsplash.com/random/1200x800?kitchen,board"
     ]
   },
   {
     "id": 16,
-    "title": "Product 16 - fashion",
-    "description": "This is a sample description for product 16 in category fashion.",
-    "price": 50.0,
-    "rating": 3.4,
-    "brand": "Acme",
-    "category": "fashion",
-    "thumbnail": "https://picsum.photos/seed/16/600/400",
+    "title": "Nordic Wool Knit Sweater",
+    "description": "Cozy wool sweater with Scandinavian patterns.",
+    "price": 74.99,
+    "rating": 4.7,
+    "brand": "NordicThreads",
+    "category": "Fashion",
+    "thumbnail": "https://source.unsplash.com/random/400x400?sweater,wool",
     "images": [
-      "https://picsum.photos/seed/16a/1200/800"
+      "https://source.unsplash.com/random/1200x800?sweater,wool",
+      "https://source.unsplash.com/random/1200x800?knit,wool"
     ]
   },
   {
     "id": 17,
-    "title": "Product 17 - groceries",
-    "description": "This is a sample description for product 17 in category groceries.",
-    "price": 52.5,
-    "rating": 3.8,
-    "brand": "Acme",
-    "category": "groceries",
-    "thumbnail": "https://picsum.photos/seed/17/600/400",
+    "title": "Artisan Hand-Painted Vase",
+    "description": "One-of-a-kind ceramic vase with vibrant colors.",
+    "price": 59.99,
+    "rating": 4.6,
+    "brand": "ClayCraft",
+    "category": "Home",
+    "thumbnail": "https://source.unsplash.com/random/400x400?vase,ceramic",
     "images": [
-      "https://picsum.photos/seed/17a/1200/800"
+      "https://source.unsplash.com/random/1200x800?vase,ceramic",
+      "https://source.unsplash.com/random/1200x800?handpainted,vase"
     ]
   },
   {
     "id": 18,
-    "title": "Product 18 - electronics",
-    "description": "This is a sample description for product 18 in category electronics.",
-    "price": 55.0,
-    "rating": 4.2,
-    "brand": "Acme",
-    "category": "electronics",
-    "thumbnail": "https://picsum.photos/seed/18/600/400",
+    "title": "Compact Portable Projector",
+    "description": "Mini HD projector for movies and presentations.",
+    "price": 249.99,
+    "rating": 4.8,
+    "brand": "VisionTech",
+    "category": "Electronics",
+    "thumbnail": "https://source.unsplash.com/random/400x400?projector,tech",
     "images": [
-      "https://picsum.photos/seed/18a/1200/800"
+      "https://source.unsplash.com/random/1200x800?projector,tech",
+      "https://source.unsplash.com/random/1200x800?portable,projector"
     ]
   },
   {
     "id": 19,
-    "title": "Product 19 - home",
-    "description": "This is a sample description for product 19 in category home.",
-    "price": 57.5,
+    "title": "Luxury Silk Pillowcase",
+    "description": "Soft silk pillowcase to protect hair and skin.",
+    "price": 39.99,
     "rating": 4.6,
-    "brand": "Acme",
-    "category": "home",
-    "thumbnail": "https://picsum.photos/seed/19/600/400",
+    "brand": "SilkEssence",
+    "category": "Home",
+    "thumbnail": "https://source.unsplash.com/random/400x400?pillowcase,silk",
     "images": [
-      "https://picsum.photos/seed/19a/1200/800"
+      "https://source.unsplash.com/random/1200x800?pillowcase,silk",
+      "https://source.unsplash.com/random/1200x800?silk,pillowcase"
     ]
   },
   {
     "id": 20,
-    "title": "Product 20 - books",
-    "description": "This is a sample description for product 20 in category books.",
-    "price": 60.0,
-    "rating": 3.0,
-    "brand": "Acme",
-    "category": "books",
-    "thumbnail": "https://picsum.photos/seed/20/600/400",
+    "title": "Rustic Cast Iron Skillet",
+    "description": "Versatile cast iron skillet for perfect searing.",
+    "price": 54.99,
+    "rating": 4.7,
+    "brand": "IronChef",
+    "category": "Kitchen",
+    "thumbnail": "https://source.unsplash.com/random/400x400?skillet,castiron",
     "images": [
-      "https://picsum.photos/seed/20a/1200/800"
+      "https://source.unsplash.com/random/1200x800?skillet,castiron",
+      "https://source.unsplash.com/random/1200x800?castiron,pan"
     ]
   },
   {
     "id": 21,
-    "title": "Product 21 - toys",
-    "description": "This is a sample description for product 21 in category toys.",
-    "price": 62.5,
-    "rating": 3.4,
-    "brand": "Acme",
-    "category": "toys",
-    "thumbnail": "https://picsum.photos/seed/21/600/400",
+    "title": "Designer Sunglasses",
+    "description": "Stylish UV-protected sunglasses for sunny days.",
+    "price": 119.99,
+    "rating": 4.8,
+    "brand": "ShadeLux",
+    "category": "Fashion",
+    "thumbnail": "https://source.unsplash.com/random/400x400?sunglasses,fashion",
     "images": [
-      "https://picsum.photos/seed/21a/1200/800"
+      "https://source.unsplash.com/random/1200x800?sunglasses,fashion",
+      "https://source.unsplash.com/random/1200x800?uv,glasses"
     ]
   },
   {
     "id": 22,
-    "title": "Product 22 - fashion",
-    "description": "This is a sample description for product 22 in category fashion.",
-    "price": 65.0,
-    "rating": 3.8,
-    "brand": "Acme",
-    "category": "fashion",
-    "thumbnail": "https://picsum.photos/seed/22/600/400",
+    "title": "Vintage Leather Backpack",
+    "description": "Durable leather backpack with multiple compartments.",
+    "price": 149.99,
+    "rating": 4.7,
+    "brand": "RetroPack",
+    "category": "Fashion",
+    "thumbnail": "https://source.unsplash.com/random/400x400?backpack,leather",
     "images": [
-      "https://picsum.photos/seed/22a/1200/800"
+      "https://source.unsplash.com/random/1200x800?backpack,leather",
+      "https://source.unsplash.com/random/1200x800?leather,bag"
     ]
   },
   {
     "id": 23,
-    "title": "Product 23 - groceries",
-    "description": "This is a sample description for product 23 in category groceries.",
-    "price": 67.5,
-    "rating": 4.2,
-    "brand": "Acme",
-    "category": "groceries",
-    "thumbnail": "https://picsum.photos/seed/23/600/400",
+    "title": "Crystal Wine Glass Set",
+    "description": "Elegant crystal wine glasses for special occasions.",
+    "price": 69.99,
+    "rating": 4.6,
+    "brand": "Elegance",
+    "category": "Kitchen",
+    "thumbnail": "https://source.unsplash.com/random/400x400?wineglass,crystal",
     "images": [
-      "https://picsum.photos/seed/23a/1200/800"
+      "https://source.unsplash.com/random/1200x800?wineglass,crystal",
+      "https://source.unsplash.com/random/1200x800?crystal,glass"
     ]
   },
   {
     "id": 24,
-    "title": "Product 24 - electronics",
-    "description": "This is a sample description for product 24 in category electronics.",
-    "price": 70.0,
-    "rating": 4.6,
-    "brand": "Acme",
-    "category": "electronics",
-    "thumbnail": "https://picsum.photos/seed/24/600/400",
+    "title": "Gourmet Coffee Grinder",
+    "description": "Electric grinder for fresh, aromatic coffee grounds.",
+    "price": 89.99,
+    "rating": 4.7,
+    "brand": "BrewMaster",
+    "category": "Kitchen",
+    "thumbnail": "https://source.unsplash.com/random/400x400?coffee,grinder",
     "images": [
-      "https://picsum.photos/seed/24a/1200/800"
+      "https://source.unsplash.com/random/1200x800?coffee,grinder",
+      "https://source.unsplash.com/random/1200x800?coffee,beans"
     ]
   }
 ]
