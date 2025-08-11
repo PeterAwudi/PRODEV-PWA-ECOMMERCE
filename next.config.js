@@ -1,12 +1,16 @@
 /** @type {import('next').NextConfig} */
-const withPWA = require('next-pwa')({
-  dest: 'public', // Service worker files will go into /public
-  register: true,
-  skipWaiting: true,
-  disable: process.env.NODE_ENV === 'development', // Disable in dev mode
-});
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'source.unsplash.com',
+        port: '',
+        pathname: '/**',  // allow all paths on this domain
+      },
+    ],
+  },
+}
 
-module.exports = withPWA({
-  reactStrictMode: true,
-});
+module.exports = nextConfig
 

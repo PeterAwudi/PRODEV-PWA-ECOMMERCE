@@ -1,88 +1,36 @@
-import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
-import axios from 'axios'
+import { GetServerSideProps } from 'next'
 import Image from 'next/image'
-import { Product } from '../../../types/product'
+import { Product } from '../../types/product'
+import { useState } from 'react'
 
-export default function ProductPage() {
-  const router = useRouter()
-  const { id } = router.query
+interface Props {
+  product: Product | null
+}
 
-  const [product, setProduct] = useState<Product | null>(null)
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
+export default function ProductPage({ product }: Props) {
   const [addedToCart, setAddedToCart] = useState(false)
 
-  useEffect(() => {
-    if (!id) return
-
-    const fetchProduct = async () => {
-      setLoading(true)
-      setError(null)
-
-      try {
-        const response = await axios.get(`/api/products/${id}`)
-        setProduct(response.data)
-      } catch (err: any) {
-        if (err.response?.status === 404) {
-          setError('Product not found')
-        } else {
-          setError('Failed to load product. Please try again.')
-        }
-        setProduct(null)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    fetchProduct()
-  }, [id])
+  if (!product) {
+    return <p className="p-6 text-center text-red-600">Product not found.</p>
+  }
 
   // Simple function to add product to localStorage cart
   const addToCart = () => {
-    if (!product) return
-
     const cartRaw = localStorage.getItem('cart')
     const cart = cartRaw ? JSON.parse(cartRaw) : []
 
-    // Check if product already in cart
     const existingIndex = cart.findIndex((item: any) => item.id === product.id)
 
     if (existingIndex >= 0) {
-      // Increment quantity
       cart[existingIndex].quantity += 1
     } else {
-      // Add new product with quantity 1
       cart.push({ id: product.id, title: product.title, price: product.price, quantity: 1 })
     }
 
     localStorage.setItem('cart', JSON.stringify(cart))
     setAddedToCart(true)
 
-    // Reset confirmation after 3 seconds
     setTimeout(() => setAddedToCart(false), 3000)
-  }
-
-  if (loading) {
-    return <p className="p-6 text-center">Loading product...</p>
-  }
-
-  if (error) {
-    return (
-      <div className="p-6 text-center text-red-600">
-        <p>{error}</p>
-        <button
-          className="mt-4 px-4 py-2 bg-indigo-600 text-white rounded"
-          onClick={() => router.reload()}
-        >
-          Retry
-        </button>
-      </div>
-    )
-  }
-
-  if (!product) {
-    return <p className="p-6 text-center">No product to display.</p>
   }
 
   return (
@@ -117,4 +65,23 @@ export default function ProductPage() {
   )
 }
 
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const { id } = context.params!
 
+  try {
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+    const res = await fetch(`${baseUrl}/api/products/${id}`)
+    if (!res.ok) {
+      return { props: { product: null } }
+    }
+    const product: Product = await res.json()
+
+    return {
+      props: { product },
+    }
+  } catch {
+    return {
+      props: { product: null },
+    }
+  }
+}
