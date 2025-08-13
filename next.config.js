@@ -5,12 +5,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'source.unsplash.com', // if you still use it
+        hostname: 'picsum.photos',
         pathname: '/**',
       },
       {
         protocol: 'https',
-        hostname: 'picsum.photos', // <-- added this
+        hostname: 'source.unsplash.com',
         pathname: '/**',
       },
     ],
@@ -18,6 +18,7 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
 
 
 
